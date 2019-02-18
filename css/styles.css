@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* *, *:before, *:after {
+    box-sizing: inherit; } /* what does this mean?*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color:#FCFDFD;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+}
+
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/* my code from here on*/
+.wrapper {
+    margin: 0 100px;
+}
+
+.header {
+    border: 0px dotted red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightheader h1 {
+    color: #DA0090;
+    /*background-color: #3d3d3d;*/
+}
+
+.navigation {
+    margin: 10px;
+}
+
+.navigtionlist {
+    border-top: 1px solid #DA0090;
+    border-bottom: 1px solid #DA0090;
+    padding: 5px 100px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav a {
+    color: black;
+}
+
+.firstarticle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.secondarticle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.articlecontent {
+    margin-left: 10px;
+}
+
+article img {
+    border-radius: 10%;
+}
+
+article h2,
+p {
+    margin: 10px 0;
+}
+
+section {
+    border-bottom: 1px solid #DA0090;
+    margin-bottom: 3px;
+}
+
+footer {
+    border-top: 1px solid #DA0090;
+}
+
+.footerlist {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-bottom: 40px;
+}
+
+.footerlist li {
+    margin: 0 2px;
+}
